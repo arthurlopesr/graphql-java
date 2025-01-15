@@ -11,3 +11,7 @@ type Category {
     name: String
     description: String
 }
+
+type Query {
+    categoryById(id: ID): Category
+}
